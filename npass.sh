@@ -88,11 +88,6 @@ echo -n "Press enter for default (d), or otherwise select letter:"
 read   chartype
 
 echo -e "\n"
-if
-	[ "$passnumber" -eq 1 ]
-then
-echo -n "Password="
-fi
 
 #Sets $chartype for correct tr option
 case $chartype in
