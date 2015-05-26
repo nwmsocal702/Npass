@@ -151,6 +151,7 @@ makepasswd >> $sdir/npass.txt
 echo "Saved Password List to $sdir/npass.txt"
 else
 echo -e "------------------------------------Password List-------------------------------\n"
-makepasswd	
+makepasswd
+echo -e "\n"
 fi
 exit 0
