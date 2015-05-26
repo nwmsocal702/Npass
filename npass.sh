@@ -135,6 +135,7 @@ case $chartype in
 
 
 #Function to create loading bar
+#Comment this out if un wanted, it's only use is aesthetic.
 terminalbar
 
 echo
